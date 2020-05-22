@@ -1,0 +1,201 @@
+.about {
+  padding: 130px 0;
+   overflow: hidden;
+  position: relative;
+}
+.video {
+  top: 50%;
+  width: 1940px;
+  transform: translate(-50%, -50%);
+  opacity: 0.5;
+  left: 50%;
+  z-index: 0;
+  position: absolute;
+}
+@media (max-width: 768px) {
+  .about {
+    background: url(logo_moment.jpg)
+      0 top no-repeat #0e438b;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .video,
+   {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .about-title{
+    font-size: 40px;
+  }
+}
+
+.contact-form{
+    margin-top: 10px;
+}
+.contact-form .square-button{
+        color: darken(#FFF8E7, 10%);
+        font-size: 26px;
+        text-transform: uppercase;
+        font-weight: 100;
+        text-align: center;
+        padding: 0 60px;
+        height: 60px;
+        border: none;
+        width: 30%;
+    }
+
+.contact-form .square-button:hover,
+.contact-form .square-button:focus {
+            background-color:#FFF8E7;
+}
+.contact-form .input-block {
+  background-color: #FFF8E7;
+  border: solid 2px black;
+  width: 50%;
+  height: 40px;
+  padding: 10px;
+  position:relative;
+  margin-bottom: 10px;
+}
+.form-control{
+            background-color: #FFF8E7;
+            padding: 0;
+            border: none;
+            height: auto;
+            position: relative;
+            z-index: 2;
+            font-size: 20px;
+            width: 100%;
+            color: #333;
+            border-color: none;
+  box-shadow: none;
+        }
+
+.form-control:focus{
+  outline: none;
+   border-color: none;
+  box-shadow: none;
+}
+.form-control:placeholder {
+            position: absolute;
+         line-height: 100%;
+            display: block;
+            margin: 0;
+            font-weight: 200;
+            z-index: 1;
+            color: #333;
+            font-size: 18px;
+        }
+.contact-form .input-block.textarea {
+  height: auto;}
+   .form-control{
+                height: auto;
+                resize: none;
+            }
+@media (min-width: 768px) { 
+  .contact-wrap{
+    width: 60%;
+    margin: auto;
+  }
+.contact-wrap{
+  padding: 15px;
+}
+ul {
+display: flex;
+text-align: center;
+justify-content: center;
+list-style: none; 
+margin: 0; 
+padding-left: 0; 
+}
+a {
+text-decoration: none; 
+}
+li {
+margin: 0px 20px; 
+list-style: none; 
+}
+.main-menu-container ul {
+display: flex;
+text-align: center;
+justify-content: flex-start;
+list-style: none; 
+margin: 0; 
+padding-left: 0; 
+}
+.main-menu-container a {
+text-decoration: none; 
+background: black; 
+color: #fff; 
+padding:0px 15px; 
+font-family: arial; 
+line-height: 50px; 
+display: block;
+min-width: 100px; 
+border-right: 1px solid white; 
+-moz-transition: all 0.3s 0.01s ease; /
+-o-transition: all 0.3s 0.01s ease;
+-webkit-transition: all 0.3s 0.01s ease;
+}
+.main-menu-container a:hover {
+background: #D43737;
+}
+.main-menu-container li {
+position:relative;
+}
+.main-menu-container li > ul {
+position: absolute; 
+top: 50px; 
+display: none; 
+}
+.main-menu-container li:hover > ul {
+display: block;
+width: 200px; 
+}
+#logo {
+	display: flex; 
+	justify-content: space-between;
+}
+img {
+	width:40%; 
+	height:40%;
+}
+.text {
+	display: flex; 
+	justify-content: center;
+	color: white;  
+	justify-content: center;
+}
+#style {
+	background: url(5.jpg);
+ background-size: 100% 10%;
+ background-repeat: round;
+	font-size:35px; 
+	font-family:Old English Text MT;
+	text-shadow: 5px 2px 4px green;
+}
+#i9, #i4{
+	width:33%; 
+	height:33%;
+}
+#i8 {
+	width:30%;
+	height:30%;
+}
+#i7, #i3 {
+	width:27%; 
+	height:27%;
+}
+#id5{
+	width:48%; 
+	height:48%;
+}
+#i10 {
+	width:35%; 
+	height:35%;
+}
+#i11 {
+	width:35%; 
+	height:30%;
+}
